@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 871
+  Height = 352
+  Top = 308
+  Width = 459
+  Caption = 'Form1'
+  ClientHeight = 352
+  ClientWidth = 459
+  OnCreate = FormCreate
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 200
+    Height = 15
+    Top = 128
+    Width = 51
+    Caption = 'введите а'
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 200
+    Height = 15
+    Top = 160
+    Width = 52
+    Caption = 'введите b'
+    OnClick = Label2Click
+  end
+  object Edit1: TEdit
+    Left = 276
+    Height = 23
+    Top = 128
+    Width = 80
+    TabOrder = 0
+    OnChange = Edit1Change
+  end
+  object Edit2: TEdit
+    Left = 276
+    Height = 23
+    Top = 160
+    Width = 80
+    TabOrder = 1
+    OnChange = Edit2Change
+  end
+  object Button1: TButton
+    Left = 199
+    Height = 25
+    Top = 232
+    Width = 157
+    Caption = 'выполнить'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Memo1: TMemo
+    Left = 16
+    Height = 114
+    Top = 8
+    Width = 440
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 3
+    OnChange = Memo1Change
+  end
+  object Label3: TLabel
+    Left = 200
+    Height = 15
+    Top = 192
+    Width = 52
+    Caption = 'введите h'
+    OnClick = Label1Click
+  end
+  object Edit3: TEdit
+    Left = 276
+    Height = 23
+    Top = 192
+    Width = 80
+    TabOrder = 4
+    OnChange = Edit3Change
+  end
+end
